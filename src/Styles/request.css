@@ -88,9 +88,13 @@
 .messages {
   position: absolute;
   right: 1rem;
-  bottom: 2rem;
+    top: 50rem;
+  height: 100px;
   cursor: pointer;
   transition: 0.2S;
+}
+.messages img{
+  height: 100%;
 }
 .messages:hover{
   transform: scale(1.1);

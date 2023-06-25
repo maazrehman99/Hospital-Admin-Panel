@@ -58,6 +58,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+ 
 }
 @media screen and (max-width: 1260px) {
   .card {
@@ -108,8 +109,8 @@
 }
 .topRightButton {
   position: absolute;
-  top: -0.5rem;
-  right: -2.5rem;
+  top: 0.5rem;
+  right: 0.5rem;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
