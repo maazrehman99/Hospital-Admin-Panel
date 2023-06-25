@@ -1,4 +1,4 @@
 .Home {
   display: flex;
-  height: 90.5rem;
+  min-height: 100vh;
 }

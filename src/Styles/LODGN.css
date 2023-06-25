@@ -39,7 +39,7 @@ li {
   font-family: Poppins;
   font-weight: 600;
   letter-spacing: -0.0285rem;
-  border-bottom: 5px solid rgb(187, 187, 187);
+  border-bottom: 2px solid rgb(187, 187, 187);
   padding-bottom: 2rem;
 }
 
@@ -130,6 +130,7 @@ li:hover {
   .logout-container button{
     width: 8rem;
     height:3rem ;
+    font-size: 1rem !important;
   }
 
 }

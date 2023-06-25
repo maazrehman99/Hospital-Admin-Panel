@@ -8,6 +8,7 @@ const LODGN = ({ onComponentChange }) => {
   const handleItemClick = (component) => {
     setActiveComponent(component);
     onComponentChange(component);
+     setShowAside(!showAside);
   };
 
   const handleToggleAside = () => {
