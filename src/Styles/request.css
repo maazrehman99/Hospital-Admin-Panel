@@ -1,0 +1,107 @@
+.requests {
+  background: #d9d9d9;
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 784px) {
+  .requests {
+    height: max-content;
+  }
+  .hospitalInfo {
+    height: 28rem !important;
+  }
+  .hospitalData {
+    flex-direction: column;
+  }
+  .HospitalBorderLeft {
+    border-right: none !important;
+  }
+  .buttonRow {
+    width: 100% !important;
+  }
+}
+
+.requests h1 {
+  color: #72aa83;
+  font-size: 1.78475rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  letter-spacing: -0.03569rem;
+}
+.hospitalInfo {
+  width: 80%;
+  margin: 4rem auto;
+
+  height: 16rem;
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1428px) {
+  .hospitalInfo {
+    width: 90%;
+  }
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+.rowButton {
+  flex-grow: 1;
+  border: 1px solid #959595;
+  cursor: pointer;
+  color: #959595;
+  font-size: 1.05788rem;
+  font-family: Lato;
+  font-weight: 500;
+  letter-spacing: -0.07406rem;
+  margin-bottom: 0.5rem;
+}
+
+.rowButton:first-child {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.rowButton:last-child {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-left: none;
+}
+
+.RequestContainer2 {
+  width: 80%;
+  margin: 5rem auto;
+
+  height: 32.875rem;
+  border-radius: 54px;
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.messages {
+  position: absolute;
+  right: 1rem;
+  bottom: 2rem;
+  cursor: pointer;
+  transition: 0.2S;
+}
+.messages:hover{
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1260px) {
+  .messages img {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .messages img {
+    height: 70px;
+  }
+}
