@@ -20,13 +20,13 @@ Make sure you have the following software installed on your system:
 1. Clone the project repository from GitHub:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/maazrehman99/Hospital-Admin
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-project
+   cd Hospital-Admin
    ```
 
 3. Install the project dependencies using npm or yarn:
